@@ -13,16 +13,18 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		FEE3FB60EEB94DD4140AE4F5 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD6D615543B543826F5AC23 /* Pods_Runner.framework */; };
+		A26E3D5C2977B4B70077849E /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD6D615543B543826F5AC23 /* Pods_Runner.framework */; };
+		A26E3D5D2977B4B70077849E /* Pods_Runner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAD6D615543B543826F5AC23 /* Pods_Runner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9705A1C41CF9048500538489 /* Embed Frameworks */ = {
+		A26E3D5E2977B4B70077849E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A26E3D5D2977B4B70077849E /* Pods_Runner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +46,7 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26E3D592977B4740077849E /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TensorFlowLiteC.framework; path = ../assets/TensorFlowLiteC.framework; sourceTree = "<group>"; };
 		BE288B27E1C0936DC1CE9D7E /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		DAD6D615543B543826F5AC23 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD26DBB44726122A78CFA184 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE3FB60EEB94DD4140AE4F5 /* Pods_Runner.framework in Frameworks */,
+				A26E3D5C2977B4B70077849E /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 		04CBAE8E866B7CBE5BEAB271 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A26E3D592977B4740077849E /* TensorFlowLiteC.framework */,
 				DAD6D615543B543826F5AC23 /* Pods_Runner.framework */,
 			);
 			name = Frameworks;
@@ -136,10 +140,10 @@
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
-				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
 				C8F0B5BCFBB02FFBA82A2184 /* [CP] Embed Pods Frameworks */,
 				4D9A4C1E6B6344C080346174 /* [CP] Copy Pods Resources */,
+				A26E3D5E2977B4B70077849E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
