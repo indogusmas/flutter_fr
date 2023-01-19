@@ -1,7 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 import 'dart:math' as math;
+
 import 'package:camera/camera.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_fr/locator.dart';
 import 'package:flutter_fr/pages/widgets/FacePainter.dart';
 import 'package:flutter_fr/pages/widgets/auth-action-button.dart';
@@ -10,7 +12,6 @@ import 'package:flutter_fr/services/camera.service.dart';
 import 'package:flutter_fr/services/face_detector_service.dart';
 import 'package:flutter_fr/services/ml_service.dart';
 import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
-import 'package:flutter/material.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({Key? key}) : super(key: key);
@@ -45,9 +46,9 @@ class SignUpState extends State<SignUp> {
 
   @override
   void dispose() {
-    // _cameraService.dispose();
-    // _faceDetectorService.dispose();
-    // _mlService.dispose();
+    _cameraService.dispose();
+    _faceDetectorService.dispose();
+    _mlService.dispose();
     super.dispose();
   }
 
