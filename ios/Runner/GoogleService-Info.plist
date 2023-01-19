@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>637864957362-nag33emtdtohlibioekt1t6oj53bg6t4.apps.googleusercontent.com</string>
+	<string>637864957362-th6r6i9g834fd373pl2qu0ve0cncvsq9.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.637864957362-nag33emtdtohlibioekt1t6oj53bg6t4</string>
+	<string>com.googleusercontent.apps.637864957362-th6r6i9g834fd373pl2qu0ve0cncvsq9</string>
 	<key>API_KEY</key>
 	<string>AIzaSyB3O1ZaD_A-bYjhTbLkYOJpYZb4G-Fgqww</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.facerecognition.flutterFr</string>
+	<string>com.facerecognition.intishaka</string>
 	<key>PROJECT_ID</key>
 	<string>facerecognition-d206c</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:637864957362:ios:ec191913d4d33dc9cb00ab</string>
+	<string>1:637864957362:ios:cac1e37d225ce73bcb00ab</string>
 </dict>
 </plist>
